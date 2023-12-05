@@ -1,0 +1,19 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #E7B5AC; /* Set background color as needed */
+  }
+  
+  .search-bar-container {
+    flex-grow: 1; /* Allow the search bar to take up available space */
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px; /* Adjust the gap between buttons as needed */
+  }
+  
+  /* Add additional styling for SearchBar and FilterButton as needed */
+  

@@ -1,53 +1,60 @@
 {
     "cardData" :[
         {
-            "id":1,
+            "id":"Interests",
             "image":"/assets/me.png",
             "title": "About Me",
             "desc": "Junior Information Technology Major @ UTDallas",
             "link": "https://www.linkedin.com/in/allisonschiang/"
         },
         {
-            "id":2,
+            "id":"Experiences",
             "image":"/assets/ais.png",
             "title":"Membership Director @ Artificial Intelligence Society",
             "desc":"Spearheaded first iteration of membership program through socials, workshops, and mentorship",
             "link":"https://www.aisutd.org/"
         },
         {
-            "id":3,
+            "id":"Experiences",
             "image":"/assets/180.png",
             "title":"Project Team Leader @ 180 Degrees Consulting",
             "desc":"Lead team of 4 to create strategies for nonprofits",
             "link":"https://www.utd180dc.org/"
         },
         {
-            "id":4,
+            "id":"Experiences",
             "image":"/assets/pride.png",
             "title":"SWE intern @ Visa",
             "desc":"Created chatbot deciphering network message elements",
             "link":"https://www.linkedin.com/posts/allisonschiang_as-my-internship-comes-to-an-end-i-would-activity-7094372202166325248-XNuK?utm_source=share&utm_medium=member_desktop"
         },
         {
-            "id":"socials",
+            "id":"Pages",
             "image":"/assets/GitHub-logo.png",
             "title":"My Github",
             "desc":"",
             "link":"https://github.com/allisonschiang"
         },
         {
-            "id":"socials",
+            "id":"Pages",
             "image":"/assets/linkedin.png",
             "title":"My Linkedin",
             "desc":"",
             "link":"https://www.linkedin.com/in/allisonschiang/"
         },
         {
-            "id":"socials",
+            "id":"Pages",
             "image":"/assets/resume.png",
             "title":"My Resume",
             "desc":"",
             "link":"https://drive.google.com/file/d/1EipKLOFWc7srsmMHzBl0YwrSlR1cSELX/view?usp=sharing"
+        },
+        {
+            "id":"Interests",
+            "image":"/assets/devpost.png",
+            "title":"Hackathons",
+            "desc":"I've been to over 8 hackathons and even helped organize one!",
+            "link":"https://devpost.com/allisonsc123?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
         }
 
     ]

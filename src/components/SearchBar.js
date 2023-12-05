@@ -2,9 +2,18 @@ import { useState } from "react";
 import IconButton from "@mui/material/IconButton";
 import SearchIcon from "@mui/icons-material/Search";
 import TextField from "@mui/material/TextField";
+import { Filter } from "./filter";
 
-const SearchBar = ({setSearchQuery}) => (
-    <form>
+const SearchBar = () => {
+  const [searchQuery, setSearchQuery] = useState(""); // Manage state within SearchBar
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    Filter(searchQuery); // Pass the search query to the Filter function
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
       <TextField
         id="search-bar"
         className="text"
@@ -15,19 +24,10 @@ const SearchBar = ({setSearchQuery}) => (
         variant="outlined"
         placeholder="Search..."
         size="small"
+        
       />
-      <IconButton type="submit" aria-label="search">
-        <SearchIcon style={{ fill: "pink" }} />
-      </IconButton>
     </form>
   );
+};
 
-  const filterData = (query, data) => {
-    if (!query) {
-      return data;
-    } else {
-      return data.filter((d) => d.toLowerCase().includes(query));
-    }
-  };
-
-  export default SearchBar
+export default SearchBar;

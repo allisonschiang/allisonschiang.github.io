@@ -1,16 +1,15 @@
-import './App.css';
-import SearchBar from './components/SearchBar'
+import React, { useState } from 'react';
+import NavBar from './components/NavBar/navbar';
 import MediaGrid from './components/MediaGrid/MediaGrid';
-import Navbar from './components/navbar';
-
+import './App.css';
 
 function App() {
+  const [filterType, setFilterType] = useState('');
+
   return (
     <div>
-      <Navbar/>
-      <div>
-        <MediaGrid/>
-      </div>
+      <NavBar setFilterType={setFilterType} />
+      <MediaGrid filterType={filterType} />
     </div>
   );
 }

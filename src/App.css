@@ -4,4 +4,9 @@
   grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
   gap: 20px;
   justify-content: center;
+  background-color: #F9E0DB;
+}
+
+body{
+  background-color: #F9E0DB;
 }
