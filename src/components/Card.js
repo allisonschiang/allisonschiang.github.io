@@ -5,10 +5,19 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { CardActionArea } from '@mui/material';
 
 export default function MediaCard(props) {
     return (
-      <Card sx={{ maxWidth: 345, borderRadius: '15px', m: 2 }}>
+      <Card sx={{ maxWidth: 345, 
+                  borderRadius: '15px', 
+                  m: 2 ,
+                  '&:hover':{
+                    backgroundColor:'lightpink'
+                  }
+                  }}
+                  onClick={()=>{window.open(props.link, "_blank")}}>
+        <CardActionArea>
         <img 
           src={props.image} 
           alt={props.title} 
@@ -22,11 +31,7 @@ export default function MediaCard(props) {
             {props.desc}
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small" onClick={()=>{window.open(props.link, "_blank")}}>
-              See more details!
-          </Button>
-        </CardActions>
+        </CardActionArea>
       </Card>
     );
   }

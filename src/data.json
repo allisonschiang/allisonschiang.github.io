@@ -9,6 +9,34 @@
         },
         {
             "id":"Experiences",
+            "image":"/assets/cap.jpeg",
+            "title":"Tech Intern @ Center for American Progress",
+            "desc":"Lead various projects around the IT department",
+            "link":"https://www.americanprogress.org/"
+        },
+        {
+            "id":"Experiences",
+            "image":"/assets/cpli.jpeg",
+            "title":"Cybersecurity Policy Fellow",
+            "desc":"Explore cyber policy through monthly roundtables and community events",
+            "link":"https://www.popvox.org/cpli"
+        },
+        {
+            "id":"Experiences",
+            "image":"/assets/archer.jpeg",
+            "title":"Archer Fellowship",
+            "desc":"Attend policy classes and internship while living with a cohort at Washington DC",
+            "link":"https://www.archercenter.org/about.html"
+        },
+        {
+            "id":"Experiences",
+            "image":"/assets/btt.png",
+            "title":"AI/ML Fellow @ Break Through Tech Cornell",
+            "desc":"Finished a ML bootcamp and worked with Farmer's Insurance on a driver detection model",
+            "link":"https://www.breakthroughtech.org/programs/the-ai-program/"
+        },
+        {
+            "id":"Experiences",
             "image":"/assets/ais.png",
             "title":"Membership Director @ Artificial Intelligence Society",
             "desc":"Spearheaded first iteration of membership program through socials, workshops, and mentorship",
@@ -24,7 +52,7 @@
         {
             "id":"Experiences",
             "image":"/assets/pride.png",
-            "title":"SWE intern @ Visa",
+            "title":"SWE Intern @ Visa",
             "desc":"Created chatbot deciphering network message elements",
             "link":"https://www.linkedin.com/posts/allisonschiang_as-my-internship-comes-to-an-end-i-would-activity-7094372202166325248-XNuK?utm_source=share&utm_medium=member_desktop"
         },
@@ -51,7 +79,7 @@
         },
         {
             "id":"Interests",
-            "image":"/assets/devpost.png",
+            "image":"/assets/hackathon.png",
             "title":"Hackathons",
             "desc":"I've been to over 8 hackathons and even helped organize one!",
             "link":"https://devpost.com/allisonsc123?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"

@@ -2,14 +2,13 @@ import { useState } from "react";
 import IconButton from "@mui/material/IconButton";
 import SearchIcon from "@mui/icons-material/Search";
 import TextField from "@mui/material/TextField";
-import { Filter } from "./filter";
 
-const SearchBar = () => {
+const SearchBar = ({ type, onFilterButtonClick }) => {
   const [searchQuery, setSearchQuery] = useState(""); // Manage state within SearchBar
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    Filter(searchQuery); // Pass the search query to the Filter function
+    onFilterButtonClick(type); // Pass the search query to the Filter function
   };
 
   return (

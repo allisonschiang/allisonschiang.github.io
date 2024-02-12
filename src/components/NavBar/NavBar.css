@@ -1,9 +1,9 @@
 .navbar-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px; /* Adjust padding as needed */
-    background-color: #E7B5AC; /* Set background color as needed */
+    background-color: rgb(255, 255, 255); /* Set background color as needed */
   }
   
   .search-bar-container {

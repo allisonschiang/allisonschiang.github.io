@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '@mui/material/Button';
+import { color } from '@mui/system';
 
 export default function FilterButton({ type, onFilterButtonClick }) {
   const handleClick = () => {
@@ -13,8 +14,10 @@ export default function FilterButton({ type, onFilterButtonClick }) {
       sx={{
         borderRadius: '15px',
         m: 2,
-        backgroundColor: '#869F77', // Set your desired background color
-        color: '#', // Set your desired text color
+        backgroundColor: 'pink', // Set your desired background color
+        color: 'black', // Set your desired text color
+        ":hover": {backgroundColor: 'lightpink' },
+        fontFamily: 'Helvetica, Sans-Serif'
       }}
       onClick={handleClick}
     >
